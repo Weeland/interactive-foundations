@@ -1,5 +1,5 @@
 body{
-	background-color: #EFCDD6;
+	background-color: #e6c1be;
 }
 
 h1{
@@ -8,11 +8,27 @@ h1{
 }
 
 p{
-	background-color: white;
-	width: 500px
+	margin: auto;
+	width: 600px
 }
 
 h3{
 	border: 2px solid white;
 	width: 200px;
+}
+
+main{
+	width: 900px;
+	margin: auto;
+	padding: 4em;
+    background: #f7e5e5;
+    border: white 5px solid;
+}
+
+h1,h3{
+	text-align: center;
+}
+
+.image{
+	display: inline-table;
 }
