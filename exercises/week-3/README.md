@@ -1,7 +1,0 @@
-# CSS
-
-### :hover
-
-### Transitions
-
-### Transform
