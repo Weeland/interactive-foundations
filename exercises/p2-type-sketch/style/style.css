@@ -1,6 +1,5 @@
 body{
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-weight: 400;
+	font-family: 'Baskervville', serif;
 	font-size: 24px;
 	margin: 0;
 }
@@ -12,8 +11,9 @@ main{
 }
 
 h1,h2,h3 {
-	font-family: 'Fruktur', cursive;
-	font-weight: normal;
+	font-family: talon,sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 h1{
@@ -37,7 +37,7 @@ h2 {
 
 .primary{
 	flex: 2;
-	background: blue;
+	background: #027F3F;
 }
 
 .secondary, .tertiary{
@@ -45,9 +45,9 @@ h2 {
 }
 
 .secondary{
-	background: red;
+	background: #BC9F86;
 }
 
 .tertiary{
-	background: rgb(0,255,0);
+	background: #590303;
 }

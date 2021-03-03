@@ -1,6 +1,16 @@
+/*Typeface*/
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/cormorant-garamond-regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Luminari";
+  src: url("../fonts/luminari.ttf") format("truetype");
+}
+
 body{
-	font-family: 'Barlow Semi Condensed', sans-serif;
-	font-weight: 400;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: normal
 	font-size: 24px;
 	margin: 0;
 }
@@ -12,7 +22,7 @@ main{
 }
 
 h1,h2,h3 {
-	font-family: 'Fruktur', cursive;
+	font-family: 'Luminari', cursive;
 	font-weight: normal;
 }
 
@@ -37,7 +47,7 @@ h2 {
 
 .primary{
 	flex: 2;
-	background: blue;
+	background: #58AA9C;
 }
 
 .secondary, .tertiary{
@@ -45,9 +55,9 @@ h2 {
 }
 
 .secondary{
-	background: red;
+	background: #22353C;
 }
 
 .tertiary{
-	background: rgb(0,255,0);
+	background: #CED1AF;
 }
