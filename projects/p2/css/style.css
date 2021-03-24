@@ -1,8 +1,145 @@
-body{
-	background: black;
+*{
+	margin: 0;
+	padding: 0;
 }
 
-.list{
+body {
+	background: linear-gradient(147deg, #22343c, #59aa9c);
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: normal
+	background-size: 400% 400%;
+
+    -webkit-animation: background 6s ease infinite;
+    -moz-animation: background 6s ease infinite;
+    animation: background 6s ease infinite;
+}
+
+@-webkit-keyframes background {
+    0%{background-position:42% 0%}
+    50%{background-position:59% 100%}
+    100%{background-position:42% 0%}
+}
+@-moz-keyframes background {
+    0%{background-position:42% 0%}
+    50%{background-position:59% 100%}
+    100%{background-position:42% 0%}
+}
+@keyframes background {
+    0%{background-position:42% 0%}
+    50%{background-position:59% 100%}
+    100%{background-position:42% 0%}
+}
+
+h1,h2,h3 {
+	font-family: 'Luminari', cursive;
+	font-weight: normal;
+}
+
+h1{
+	font-size: 5rem;
+	min-width: 800px;
+	margin: auto;
+}
+h2{
+	font-size: 3rem;
+}
+h3{
+	font-size: 2em;
+}
+h4{
+	font-size: 20px;
+}
+h5{
+	font-size: 16px;
+}
+
+/*color*/
+.yellow{
+	color: #CED1AF; 
+}
+.white{
+	color: white;
+}
+.green{
+	color: #59AA9C;
+}
+.black{
+	color: black;
+}
+
+/*Layout*/
+.header{ 
+	min-width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	margin-bottom: 3em;
+}
+.lovecraft{
+	background-repeat: no-repeat;
+/*	background-color: black;*/
+	background-image: url('../img/lovecraft.jpg');
+	background-size: 1600px;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+}
+.landing{
+	min-width: 100vw;
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	margin-bottom: 9em; 
+}
+.about{
+	width: 800px;
+	margin: auto;
+	font-size: 20px;
+	margin-bottom: 9em;
+}
+.center{
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+.box{
+	height: auto;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+.card{
+	height: 370px;
+	width: 250px;
+	background: #22343C;
+	border-radius: 15px;
+	margin: 1em;
+	padding: 19px;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+.frame{
+	height: 328px;
+	width: 210px;
+	border: 2px solid #CED1AF;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+/*	top: 24px;
+	left: 16px;*/
+}
+.info{
+	width: auto;
+	margin: auto;
+}
+.bottom{
+	margin-bottom: 4em;
+}
+
+/*.list{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
@@ -16,4 +153,13 @@ body{
 	width: 300px;
 	height: 100px;
 	text-align: center;
+}*/
+
+/*.details{
+	opacity: 0;
+	transition: opacity 400ms ease-in-out;
 }
+
+.card:hover .details{
+	opacity: 1;
+}*/
