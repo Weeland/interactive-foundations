@@ -79,7 +79,7 @@ h5{
 	background-repeat: no-repeat;
 /*	background-color: black;*/
 	background-image: url('../img/lovecraft.jpg');
-	background-size: 1600px;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-attachment: fixed;
