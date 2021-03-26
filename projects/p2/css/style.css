@@ -2,23 +2,25 @@
 	margin: 0;
 	padding: 0;
 }
+/*Typeface Import*/
+@font-face {
+  font-family: "Luminari";
+  src: url("../fonts/luminari.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url("../fonts/cormorant-garamond-regular.ttf") format("truetype");
+}
 
+/*source: https://www.gradient-animator.com/*/
 body {
 	background: linear-gradient(147deg, #22343c, #59aa9c);
 	font-family: 'Cormorant Garamond', serif;
-	font-weight: normal
-	background-size: 400% 400%;
 
-    -webkit-animation: background 6s ease infinite;
     -moz-animation: background 6s ease infinite;
     animation: background 6s ease infinite;
 }
 
-@-webkit-keyframes background {
-    0%{background-position:42% 0%}
-    50%{background-position:59% 100%}
-    100%{background-position:42% 0%}
-}
 @-moz-keyframes background {
     0%{background-position:42% 0%}
     50%{background-position:59% 100%}
@@ -37,9 +39,7 @@ h1,h2,h3 {
 
 h1{
 	font-size: 5rem;
-	min-width: 800px;
-	margin: auto;
-}
+	text-align: center;}
 h2{
 	font-size: 3rem;
 }
@@ -69,7 +69,6 @@ h5{
 
 /*Layout*/
 .header{ 
-	min-width: 100vw;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -77,16 +76,15 @@ h5{
 }
 .lovecraft{
 	background-repeat: no-repeat;
-/*	background-color: black;*/
+	background-color: #d0cdcd;
 	background-image: url('../img/lovecraft.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top right;
-	background-attachment: fixed;
+	background-position: center;
+/*	background-attachment: fixed;*/
 	background-blend-mode: multiply;
 }
 .landing{
-	min-width: 100vw;
+/*	min-width: 100vw;*/
 	height: 40vh;
 	display: flex;
 	align-items: center;
@@ -99,13 +97,13 @@ h5{
 	margin-bottom: 9em;
 }
 .center{
-	width: 600px;
+	width: auto;
 	margin: auto;
 	text-align: center;
 }
 .box{
 	height: auto;
-	width: 100vw;
+/*	width: 100vw;*/
 	display: flex;
 	justify-content: center;
 }
