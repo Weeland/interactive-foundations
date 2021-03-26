@@ -17,14 +17,14 @@ body {
 	font-family: 'Cormorant Garamond', serif;
 
 	background: linear-gradient(163deg, #22343c, #59aa9c);
-    animation: background 6s ease infinite;
+    /*animation: background 6s ease infinite;*/
 }
 
-@keyframes background {
+/*@keyframes background {
     0%{background-position:42% 0%}
     50%{background-position:59% 100%}
     100%{background-position:42% 0%}
-}
+}*/
 
 h1,h2,h3 {
 	font-family: 'Luminari', cursive;
