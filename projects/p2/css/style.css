@@ -14,18 +14,12 @@
 
 /*source: https://www.gradient-animator.com/*/
 body {
-	background: linear-gradient(147deg, #22343c, #59aa9c);
 	font-family: 'Cormorant Garamond', serif;
 
-    -moz-animation: background 6s ease infinite;
+	background: linear-gradient(163deg, #22343c, #59aa9c);
     animation: background 6s ease infinite;
 }
 
-@-moz-keyframes background {
-    0%{background-position:42% 0%}
-    50%{background-position:59% 100%}
-    100%{background-position:42% 0%}
-}
 @keyframes background {
     0%{background-position:42% 0%}
     50%{background-position:59% 100%}
