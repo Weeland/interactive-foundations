@@ -96,12 +96,17 @@ h5{
     height: 3vh;
     background: rgba(255,255,255,20%);
 }
-.spine-1{
-	background-image: url('../img/lovecraft.jpg');
-	height: 40vh;
-	text-align: center;
+.spine-1 {
+    border-radius: 5%;
+    transform: translateX(10%);
+    background-image: url('../img/lovecraft.jpg');
+    height: 40vh;
+    text-align: center;
+    overflow: hidden;
 }
 .spine-2{
+	overflow: hidden;
+	border-radius: 5%;
 	background-image: url('../img/coc.jpg');
 	height: 40vh;
 	font-size: 18px;
@@ -216,7 +221,7 @@ a:hover {
 	height: 80vh;
 }
 .landing:hover .spine-2{
-	transform: translate(0%);
+	transform: translateX(5%);
 }
 .img-1:hover {
 	background-image: url('../img/farmhouse.jpeg'); 
