@@ -1,34 +1,81 @@
 body{
 	background-color: #e6c1be;
-}
-
-h1{
-	border: 2px solid white;
-	width: 300px;
-}
-
-p{
-	margin: auto;
-	width: 600px
-}
-
-h3{
-	border: 2px solid white;
-	width: 200px;
+	color: #bb756f;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 main{
-	width: 900px;
-	margin: auto;
-	padding: 4em;
+	width: 70%;
+	margin: 3em auto;
+	padding: 1em;
     background: #f7e5e5;
     border: white 5px solid;
+    border-radius: 10px;
 }
 
-h1,h3{
+a{
+	color: #524f4f;
+	text-decoration: underline;
+	text-underline-position: ;
+	text-decoration-color: #bb756f; 
+	transition: color 300ms ease-in-out;
+}
+
+h4{
 	text-align: center;
+	font-size: 18px;
 }
 
-.image{
-	display: inline-table;
+h1, h3{
+	background: white;
+	width: 30%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 10px;
 }
+
+h1{
+	margin: auto;
+}
+
+li{
+	width: 70%;
+}
+
+/*Margin*/
+.bottom{
+	margin-bottom: 10px;
+}
+.top{
+	margin-top: 2em;
+}
+
+/*Layout*/
+.image{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+	margin: 1em auto;
+	border: 5px solid white;
+}
+
+.box{
+	width: 60%;
+	margin: auto;
+}
+
+/*Hover*/
+a:hover {
+  color: #bb756f;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 650px){
+	h3{
+		font-size: 16px;
+		width: 95px;
+	}
+}
+
