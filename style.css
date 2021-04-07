@@ -73,7 +73,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 730px){
 	h3{
 		font-size: 16px;
 		width: 95px;
