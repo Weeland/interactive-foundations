@@ -1,0 +1,10 @@
+body{
+	background:	yellow;
+}
+
+
+
+body.darkmode{
+	background: blue;
+	color: white;
+}
