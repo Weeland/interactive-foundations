@@ -1,11 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body{
 	background: #F0EFF2;
+	font-family: industry,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: white;
 }
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Text*/
+h1{
+	font-weight: 800;
+	font-size: 5rem;
+	font-style: normal;
+	line-height: 5rem;
+	margin-bottom: 1rem;
+}
+
+h5{
+	font-size: 15px;
+	font-weight: 600;
+}
+
+p{
+	margin-bottom: 1rem;
+}
+
+/*Main*/
+.back-rec{
+	width: 89%;
+	height: 690px;
+	/*background: #332E2E;*/
+	background-image: url(assets/background.svg);
+	background-repeat: no-repeat;
+	background-position-y: -3px;
+	float: right;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.box {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-content: space-around;
+    justify-content: flex-start;
+    position: relative; 
+	left: 5rem; 
+	top: 1rem;
+}
+.logotype{
+	width: 380px;
+}
+.info{
+	padding-top: 2rem;
+	padding-left: 2rem;
+	width: 40%;
+}
+.side{
+	padding-top: 3rem;
+	width: 11%;
+}
+.logo-box{
+	width: 70px;
+	margin: auto;
+}
+.logo {
+    width: 70px;
+}
+
+
+
+/*Make the width wider and height lower to push it out, instead of
+using positioning.*/
 
 /*=============
 	Fonts
-=============*/
-/*Industry Book Italic
+=============
+Industry Book Italic
 font-family: industry,sans-serif;
 font-weight: 400;
 font-style: italic;
