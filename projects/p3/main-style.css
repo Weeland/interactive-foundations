@@ -108,6 +108,8 @@ strong{
 	width: 11vw;
 }
 .logo-box{
+    position: relative;
+    top: -50px;
 	width: 70px;
 	margin: auto;
 }
@@ -115,7 +117,7 @@ strong{
     width: 70px;
 }
 .title {
-/*    position: relative;
+/*  position: relative;
     top: 0px;*/
     width: 31vw;
     margin-right: 1em;
@@ -127,7 +129,7 @@ strong{
 #menu {
     position: relative;
     top: 280px;
-	left: -177px;
+	left: -165px;
     display: flex;
     width: 44vw;
     transform: rotate(-90deg);
@@ -172,6 +174,7 @@ strong{
 }
 
 
+
 /*================
 	Subpages
 ================*/
@@ -204,8 +207,6 @@ strong{
 .form img{
 	width: 390px;
 }
-
-
 
 
 /*Make the width wider and height lower to push it out, instead of
