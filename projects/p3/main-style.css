@@ -131,7 +131,6 @@ strong{
     display: flex;
     width: 44vw;
     transform: rotate(-90deg);
-    z-index: -2;
 }
 
 #menu li a {
